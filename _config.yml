@@ -1,0 +1,146 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME', 'vendor/bundle']
+
+
+# Site Settings
+title: "FOSS4GNL 2019"
+email: "foss4g@osgeo.nl"
+description: "FOSS4GNL conference website 2019"
+baseurl: ""
+url: "https://2019.foss4g.nl"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: ""
+googleAnalyticsSiteUrl: ""
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+
+# Organizer Info
+organizerName: "OSGeo.nl"
+organizerAlternateName: "Open Source Geo Nederland"
+organizerDescription: "..."
+organizerEmail: "foss4g@osgeo.nl"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "http://www.osgeo.nl/"
+
+# Head
+metaKeywords: "event, osgeo, conferentie, open source, geo, gis, delft, geographic, nederland"
+twitterAccount: "@osgeonl"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+# - {permalink: "/blog/", text: "Nieuws"}
+ - {permalink: "/conference/", text: "Programma"}
+# - {permalink: "/workshops/", text: "Workshops"}
+# - {permalink: "/photos/", text: "Foto's"}
+ - {permalink: "/speakers/", text: "Sprekers"}
+bottomNavigationLinks:
+  #- {link: "https://www.eventbrite.nl/e/tickets-foss4gnl-2019-60886980598", text: "Aanmelden"}
+  - {link: "https://github.com/osgeonl/osgeonl.github.io/tree/master/sitecontent/foss4gnl/2019", text: "Presentaties"}
+rightNavigationButtons:
+  #- {link: "https://www.eventbrite.nl/e/tickets-foss4gnl-2019-60886980598", text: "Aanmelden"}
+  - {link: "https://github.com/osgeonl/osgeonl.github.io/tree/master/sitecontent/foss4gnl/2019", text: "Presentaties"}
+
+# About Block
+aboutTitle: "Over FOSS4GNL 2019"
+aboutBlock:
+ - {title: "Conferentie", image: "3dgeoinfo.png", permalink: "/conference/", text: "20 juni" }
+
+# Statistic Block
+statisticBlockImage: "delft_ahn3.jpg"
+statisticBlock:
+ - {count: "3", specialCharacter: "", info: "keynotes", detail: ""}
+ - {count: "20", specialCharacter: "", info: "uren", detail: ""}
+ - {count: "23", specialCharacter: "", info: "sprekers", detail: ""}
+ - {count: "4", specialCharacter: "", info: "parallele tracks", detail: ""}
+
+# Latest News Block
+latestNewsTitle: "Nieuws"
+
+# Location Block
+locationBlockTitle: "Locatie"
+eventLocationName: "Technische Universiteit Delft - Faculteit Bouwkunde"
+eventLocationLink: "https://3d.bk.tudelft.nl/about/#where"
+eventStreetAddress: "Julianalaan 134"
+eventAddressLocality: "Delft"
+eventAddressLocalityRegion: "Zuid-Holland"
+eventPostalCode: "2628 BL"
+eventAddressCountry: "Nederland"
+eventStartTime: "2019-06-20T10:00"
+eventDoorTime: "09:00"
+eventEndTime: "2019-06-20T18:00"
+eventPlaceCoordinates: "52.005694, 4.370651"
+eventPlaceLongitude: 4.370651
+eventPlaceLatitude: 52.005694
+mapCenterCoordinates: "52.005694, 4.370651"
+mapMobileCenterCoordinates: "52.005694, 4.370651"
+
+# Partners Block
+organizersTitle: ""
+partnersTitle: "Sponsors"
+becomeSponsorLink: "mailto:foss4g@osgeo.nl"
+sponsorsButtonText: "Wordt een sponsor"
+
+
+# Tickets Block
+ticketsTitle: "Prijslijst"
+ticketsInfo: ""
+ticketsOffers:
+ -
+  name: "Conferentiedag 20 juni"
+  price: ""
+  priceCurrency: "Donatie"
+  ticketsNumber: "?"
+  buyButtonLink: "https://www.eventbrite.nl/e/tickets-foss4gnl-2019-60886980598"
+  buyButtonText: "Koop nu"
+  soldOut: true
+  soldOutText: "Uitverkocht"
+  validFrom: "2019-04-23T00:00"
+  validThrough: "2019-06-20T00:00"
+ -
+  name: "Golden ticket 20 juni"
+  price: ""
+  priceCurrency: "Donatie"
+  ticketsNumber: "?"
+  buyButtonLink: "https://www.eventbrite.nl/e/tickets-foss4gnl-2019-60886980598"
+  buyButtonText: "Koop nu"
+  soldOut: true
+  soldOutText: "Uitverkocht"
+  validFrom: "2019-04-23T00:00"
+  validThrough: "2019-06-20T00:00"
+
+# Footer
+socialLinks:
+ - {link: "https://twitter.com/intent/user?screen_name=osgeonl", icon: "twitter"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "https://osgeo.nl/", text: "OSGeo.nl"}
+   - {link: "https://wiki.osgeo.org/wiki/Nederlands/", text: "Wiki"}
+   - {link: "https://2017.foss4g.nl", text: "FOSS4GNL 2017"}
+   - {link: "https://2018.foss4g.nl", text: "FOSS4GNL 2018"}
+ -
+  title: "Contact"
+  links:
+   - {link: "mailto:foss4g@osgeo.nl", text: "foss4g@osgeo.nl"}
+ -
+  title: "FAQ"
+  links:
+#    - {permalink: "/cod/", text: "Code of Conduct"
+    - {link: "https://www.osgeo.org/code_of_conduct/", text: "Code of Conduct"}
+
+# Blog
+blogTitle: ""
+blogCommentsEnabled: false
+discusShortName: "osgeo"
+
+# Speakers List Block
+showSessions: true
